@@ -98,9 +98,4 @@ SSH into the control node and follow the steps below:
 - You will have to update the Hosts file. In that file youare able to pick what groups the changes will take place in what machines.
 - <VM_Public_IP:5601/app/kibana> 
 
--As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
--
--
--
--
--
+
