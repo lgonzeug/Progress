@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/lgonzeug/Progress/blob/main/Diagrams/Docker%20PS.JPG
+![](https://github.com/lgonzeug/Progress/blob/main/Diagrams/Docker%20PS.JPG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -91,11 +91,16 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the Install-elk.yml file to /etc/ansible
 - Update the hosts file to include the IP addresses for the ELK VM in the [ELK] Group.
-- Run the playbook, and navigate to the ELK VM to check that the installation worked as expected.
+- Run the playbook, and navigate to <elk_server_ip>:5601 to check that the installation worked as expected.
 
 
 - The playbook is the Install-elk.yml You copy that and install it in /etc/ansible
 - You will have to update the Hosts file. In that file youare able to pick what groups the changes will take place in what machines.
 - <VM_Public_IP:5601/app/kibana> 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+-
+-
+-
+-
+-
